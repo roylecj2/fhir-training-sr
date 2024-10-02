@@ -28,8 +28,8 @@ app.use(session(sess));
 // *********************************
 // App Authorization Client ID
 
-app.locals.fhir_base_url = 'https://fhir.training.hl7.org.au/fhir';
-app.locals.tx_base_url = "https://tx.training.HL7.org.au/fhir";
+app.locals.fhir_base_url = 'http://hapi.myfhiracademy.com:8080/fhir';
+app.locals.tx_base_url = "https://r4.ontoserver.csiro.au/fhir";
 
 // *********************************
 
