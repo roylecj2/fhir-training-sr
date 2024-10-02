@@ -9,17 +9,14 @@ const servicerequest_svc = require('../services/servicerequest_svc');
 function buildServiceRequest(data) {
   const servicerequest = {
     resourceType: "ServiceRequest",
-    meta: {
-      profile: [ "http://hl7.org.au/fhir/StructureDefinition/au-diagnosticrequest" ]
-    },
 
     // requisition
     requisition: {        
       type: {
         coding: [{
-          code: "PGN", 
+          code: "PLAC", 
           display: "Placer Group Identifier",
-          system: "http://terminology.hl7.org/CodeSystem/v2-0203"
+          system: "http://hl7.org/fhir/ValueSet/identifier-type"
         }]
       },
 

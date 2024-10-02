@@ -1,10 +1,5 @@
   const patient = {
             "id": "df27b682-a4ee-4a6d-8ce6-1f3dd0476008",
-            "meta": {
-              "profile": [
-                "http://hl7.org.au/fhir/StructureDefinition/au-patient"
-              ]
-            },
             "birthDate": "1967-01-20",
             "gender": "male",
             "identifier": [
@@ -70,11 +65,6 @@
 
   const practitioner_placer = {
               "id": "c97830e5-34f4-41de-8710-a99e06cf9022",
-              "meta": {
-                "profile": [
-                  "http://hl7.org.au/fhir/StructureDefinition/au-practitioner"
-                ]
-              },
               "active": true,
               "identifier": [
                 {
@@ -108,11 +98,6 @@
 
   const practitioner_role_placer = {
                 "id": "b4c70d3a-8948-487e-b9a2-bd709c3c9b99",
-                "meta": {
-                  "profile": [
-                    "http://hl7.org.au/fhir/StructureDefinition/au-practitionerrole"
-                  ]
-                },
                 "identifier": [
                   {
                     "system": "http://ns.electronichealth.net.au/id/medicare-provider-number",
@@ -155,11 +140,6 @@
 
   const organization_placer =  {
           "id": "68821c8e-117a-4a30-8e19-2f3ed4f3ed25",
-          "meta": {
-            "profile": [
-              "http://hl7.org.au/fhir/StructureDefinition/au-organization"
-            ]
-          },
           "identifier": [
             {
               "system": "http://ns.electronichealth.net.au/id/hi/hpio/1.0",
@@ -181,11 +161,6 @@
 
   const organization_filler = {
             "id": "7c444363-60ed-487d-a928-0757a6dabbdb",
-            "meta": {
-              "profile": [
-                "http://hl7.org.au/fhir/StructureDefinition/au-organization"
-              ]
-            },
             "identifier": [
               {
                 "system": "http://ns.electronichealth.net.au/id/hi/hpio/1.0",
